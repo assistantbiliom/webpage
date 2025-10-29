@@ -59,7 +59,7 @@ nav a:hover {
 .hero {
     padding: 120px 0;
     text-align: center;
-    background: linear-gradient(135deg, #FFB6C1 0%, #FFC0CB 50%, #FFD1DC 100%);
+    background: linear-gradient(135deg, #D4F1F4 0%, #E0F7F4 50%, #EBF9F7 100%);
     position: relative;
     overflow: hidden;
 }
@@ -67,15 +67,15 @@ nav a:hover {
 .hero::after {
     content: '';
     position: absolute;
-    top: 20px;
-    right: 50px;
-    width: 400px;
-    height: 400px;
+    top: 10px;
+    right: 30px;
+    width: 600px;
+    height: 600px;
     background-image: url('images/hero-person.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.85;
+    opacity: 0.9;
     z-index: 1;
 }
 
@@ -280,11 +280,11 @@ footer .container {
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero::after {
-        width: 250px;
-        height: 250px;
+        width: 350px;
+        height: 350px;
         top: 10px;
-        right: 10px;
-        opacity: 0.6;
+        right: -20px;
+        opacity: 0.7;
     }
     
     .hero h1 {
