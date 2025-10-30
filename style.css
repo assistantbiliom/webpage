@@ -60,7 +60,8 @@ nav a:hover {
     padding: 120px 0;
     text-align: center;
 /*    background: linear-gradient(135deg, #89cc89 0%, #a8dba8 50%, #c8ebc8 100%); */
-	background: linear-gradient(135deg, #4CD964 0%, #34C759 100%);
+	background: linear-gradient(135deg, #61dd76 0%, #61dd76cc 100%);
+	
     position: relative;
     overflow: hidden;
 }
